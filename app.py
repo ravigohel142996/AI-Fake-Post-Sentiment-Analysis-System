@@ -47,6 +47,9 @@ CUSTOM_CSS = """
     [data-testid="stSidebar"] .stMarkdown h1,
     [data-testid="stSidebar"] .stMarkdown h2,
     [data-testid="stSidebar"] .stMarkdown h3 { color: #58a6ff; }
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] label { color: #e6edf3 !important; }
 
     /* ---- metric cards ---- */
     .metric-card {
